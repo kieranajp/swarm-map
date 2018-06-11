@@ -30,5 +30,5 @@
   unused-packages = true
 
 [[constraint]]
-  name = "github.com/nbari/violetear"
-  version = "5.0.1"
+  name = "github.com/gorilla/mux"
+  version = "v1.6.2"

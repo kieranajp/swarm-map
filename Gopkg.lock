@@ -2,14 +2,29 @@
 
 
 [[projects]]
-  name = "github.com/nbari/violetear"
+  name = "github.com/gorilla/context"
   packages = ["."]
-  revision = "5c7cdfea6d629c4fa5c4fafe2fe27f53b5cb0254"
-  version = "5.0.1"
+  revision = "08b5f424b9271eedf6f9f0ce86cb9396ed337a42"
+  version = "v1.1.1"
+
+[[projects]]
+  name = "github.com/gorilla/mux"
+  packages = ["."]
+  revision = "e3702bed27f0d39777b0b37b664b6280e8ef8fbf"
+  version = "v1.6.2"
+
+[[projects]]
+  name = "github.com/joho/godotenv"
+  packages = [
+    ".",
+    "autoload"
+  ]
+  revision = "a79fa1e548e2c689c241d10173efd51e5d689d5b"
+  version = "v1.2.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "5ff8436c4d2f536a6516d7e67b7e7ce51c13854f00e0a1502d26ac3eb6c2329f"
+  inputs-digest = "0386f63bead340056ee9dee224ef2d7dc6a57c24502af8db99f318f8d1456e84"
   solver-name = "gps-cdcl"
   solver-version = 1
