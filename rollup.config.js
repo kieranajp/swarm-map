@@ -7,6 +7,9 @@ export default {
     file: 'client/assets/dist/bundle.js',
     format: 'cjs'
   },
+  watch: {
+    include: 'client/**'
+  },
   plugins: [
     resolve(),
     babel({
